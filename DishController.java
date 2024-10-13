@@ -1,4 +1,3 @@
-
     /**
      * 根据分类id查询菜品
      * @param categoryId
@@ -21,5 +20,3 @@
     public Result startOrStop(@PathVariable Integer status, Long id){
         dishService.startOrStop(status,id);
         return Result.success();
-    }
-}
